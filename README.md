@@ -13,7 +13,11 @@ Perspective is a multifaceted factor influencing our judgements. This study aims
 ### Data
 1. [data_filtering_and_processing](data_filtering_and_processing/): this directory contains code for how we extracted, filtered, matched and downsampled data from both the data of [the first-person moral dilemma study](https://doi.org/10.1371/journal.pone.0223108) and that of [the third-person moral machine study](https://www.nature.com/articles/s41586-018-0637-6#MOESM1).
 
-2. [processed_data](processed_data): this directory contains all the processed data for the main analysis
+      *Suggested Order of viewing:*
+      (1) first_person_processing.py; (2) third_person_data_extraction.py; (3) third_person_processing.py; (4) cross_prediction_analysis.py; (5) data_combination.py
+
+
+2. [processed_data](processed_data): this directory contains all the processed data prepared for the main analysis.
 
 
 ### Method
@@ -22,4 +26,5 @@ Perspective is a multifaceted factor influencing our judgements. This study aims
 
 2. [amce.R](amce.R): this file includes the computation of the Average Marginal Component Effects (AMCEs) as a comparison to the results from the logistic model.
 
-3. 
+3. [proportion_analysis.py](proportion_analysis.py): this file is for our extended analysis on the effect of perspective on the favoured group of pedestrians (i.e. younger, female).
+
